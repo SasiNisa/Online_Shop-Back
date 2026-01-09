@@ -27,13 +27,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #DEBUG = os.environ.get('DEBUG', 'True') == 'True'
 
 
-ALLOWED_HOSTS = []
+#ALLOWED_HOSTS = []
 #ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
-"""
+
 ALLOWED_HOSTS = [
     "localhost",
     "127.0.0.1:8000",
-    "https://online-shop-back-algg.onrender.com/",
+    "online-shop-back-algg.onrender.com/",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
